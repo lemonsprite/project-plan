@@ -5,11 +5,11 @@ import AddProject from '@/views/AddProject.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
-    path: '/add',
+    path: '/tambah',
     name: 'AddProject',
     component: AddProject
   },
