@@ -11,6 +11,12 @@
       "title": "Belajar Basic Vue 3",
       "details": "Lorem Ipsum",
       "complete": true
+    },
+    {
+      "title": "fak",
+      "details": "hayi",
+      "complete": false,
+      "id": 3
     }
   ]
 }
