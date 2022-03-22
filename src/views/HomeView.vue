@@ -2,7 +2,7 @@
   <div class="home">
     <div v-if="projects.length">
       <div v-for="project in projects" :key="project.id">
-        <SingleProject :project="project" ></SingleProject>
+        <SingleProject :project="project" @delete="handleDelete"></SingleProject>
       </div>
     </div>
   </div>
@@ -27,6 +27,13 @@ export default {
     .then(res => res.json())
     .then(data => this.projects = data)
     .catch(err => console.log(err.message))
+  },
+  methods: {
+    handleDelete(id) {
+      this.projects = this.projects.filter((p) => {
+        return p.id !== id
+      })
+    }
   }
 }
 </script>

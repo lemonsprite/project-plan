@@ -1,16 +1,16 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "title": "Membuat Aplikasi Project Plan",
-            "details": "Lorem Ipsum",
-            "complete": false
-        },
-        {
-            "id": 2,
-            "title": "Belajar Basic Vue 3",
-            "details": "Lorem Ipsum",
-            "complete": true
-        }
-    ]
+  "projects": [
+      {
+          "id": 1,
+          "title": "Membuat Aplikasi Project Plan",
+          "details": "Lorem Ipsum",
+          "complete": false
+      },
+      {
+          "id": 2,
+          "title": "Belajar Basic Vue 3",
+          "details": "Lorem Ipsum",
+          "complete": true
+      }
+  ]
 }
